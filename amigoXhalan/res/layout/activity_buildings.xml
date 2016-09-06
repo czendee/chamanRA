@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".MainActivity" >
+
+<TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       
+     
+        
+        
+               <TableRow
+            android:id="@+id/tblRowInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/Path"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textToolMonitorConfig004"
+                        android:textSize="10sp" />
+
+                    <ImageButton
+                        android:id="@+id/ImageButton02"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="60dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_marginTop="15dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/review_tool_web_icon_001"
+                        android:onClick="goToMonitorConfigLocal"
+                        android:src="@drawable/review_tool_local_icon_001" />
+
+                    <ImageButton
+                        android:id="@+id/ImageButton01"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="45dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_marginTop="15dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/review_tool_web_icon_001"
+                        android:onClick="goToMonitorConfigWeb" />
+
+                    <ImageButton
+                        android:id="@+id/ImageButton03"
+                        style="@style/AppBaseTheme"
+                        android:layout_width="45dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentStart="false"
+                        android:layout_marginTop="15dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/review_tool_web_icon_001"
+                        android:onClick="goToViewLocalFileContent"
+                        android:src="@drawable/review_tool_view_file_icon_001" />
+
+                </TableRow>
+                
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textBuildingResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textBuilding004"
+                        android:textSize="10sp" />
+
+
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+            
+        
+        
+        
+
+
+    </TableLayout>
+
+</RelativeLayout>

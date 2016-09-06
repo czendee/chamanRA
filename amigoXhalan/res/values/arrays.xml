@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <resources> 
+ 
+ 
+     <string-array  name="image_ids" > 
+         <item>@drawable/ic_launcher</item> 
+         <item>@drawable/foto01</item> 
+         <item>@drawable/foto02</item> 
+         <item>@drawable/foto03</item> 
+         <item>@drawable/foto04</item> 
+         <item>@drawable/foto05</item> 
+         <item>@drawable/foto07</item> 
+         <item>@drawable/foto08</item> 
+          
+     </string-array> 
+     <string-array  name="image_buildings_ids" > 
+         <item>@drawable/foto_b_01</item> 
+         <item>@drawable/foto_b_02</item> 
+         <item>@drawable/foto_b_03</item> 
+         <item>@drawable/foto_b_04</item> 
+         <item>@drawable/foto_b_05</item>            
+     </string-array> 
+ </resources> 

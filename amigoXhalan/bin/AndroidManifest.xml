@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.carlosZ.amigoxhalan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.CAMERA" /> 
+        <uses-feature android:name="android.hardware.camera"
+                  android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+<!--
+before adding login functionality
+
+        <activity
+            android:name="com.carlosZ.amigoxhalan.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+-->        
+        <activity
+            android:name="com.carlosZ.amigoxhalan.LoginActivity"            
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                
+        
+        <activity
+            android:name="com.carlosZ.amigoxhalan.ListBuildingsActivity"
+            android:label="@string/title_activity_listbuildings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.carlosZ.amigoxhalan.LoginActivity" />
+        </activity>
+
+        
+        <activity
+            android:name="com.carlosZ.amigoxhalan.MainActivity"
+            android:label="@string/title_activity_main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.carlosZ.amigoxhalan.ListBuildingsActivity" />
+        </activity>
+        
+         <activity
+            android:name="com.carlosZ.amigoxhalan.BuildingsActivity"
+            android:label="@string/title_activity_buildings"
+            android:parentActivityName="com.carlosZ.amigoxhalan.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.carlosZ.amigoxhalan.MainActivity" />
+        </activity>
+         <activity
+            android:name="com.carlosZ.amigoxhalan.RecamaraActivity"
+            android:label="@string/title_activity_recamara"
+            android:parentActivityName="com.carlosZ.amigoxhalan.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.carlosZ.amigoxhalan.MainActivity" />
+        </activity> 
+
+        <activity
+            android:name="com.carlosZ.amigoxhalan.CapturaimagenActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.carlosZ.amigoxhalan.UploadActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         
+                 
+    </application>
+
+</manifest>

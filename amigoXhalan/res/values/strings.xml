@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amigo XChalan App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="menu_settings">SettingsXch</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_buildings"> Buildings Activity</string>
+    <string name="title_activity_recamara"> Recamara  Acto</string>
+    
+    <string name="title_activity_listbuildings"> Edificios</string>
+    
+    
+    <string name="action_search">Buscars</string>
+    <string name="action_location_found">Locas</string>
+    <string name="action_refresh">Refreshca</string>
+    <string name="action_help">aaayuda</string>
+    <string name="action_check_updates">Actualizzz</string>
+    <string name="textToolMonitorConfig004">De donde </string>
+    <string name="textBuilding004">Resultado: </string>
+    
+    
+    <!--   login -->
+    <string name="textLogin001">Employee:</string>
+    <string name="textLogin002">KEY:</string>
+    <string name="buttonLogin001">Login</string>
+    
+    <!-- upload photo -->
+    
+    
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    
+    
+    
+</resources>
